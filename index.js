@@ -1,9 +1,13 @@
-fetch("https://601da02bbe5f340017a19d60.mockapi.io/users")
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data);
-    mostrarEnHTML(data);
-  });
+const buscarInformacion = () => {
+  fetch("https://601da02bbe5f340017a19d60.mockapi.io/users")
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+      mostrarEnHTML(data);
+    });
+};
+
+buscarInformacion();
 
 const mostrarEnHTML = (data) => {
   const tabla = document.querySelector("#tabla");
@@ -68,6 +72,7 @@ agregar.onclick = () => {
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
-      mostrarEnHTML(data)
     });
 };
+
+buscarInformacion()
