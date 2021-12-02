@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.boton-agregar{
+    border-bottom: none;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: darkgreen;
+    color: white;
+    width: 200px;
+}
+
+#agregar{
+    margin: auto;
+    margin-top: 20px;
+}
+
+#boton-agregar-usurio{
+    margin-bottom: 20px;
+}
+
+table {
+  border: 1px solid rgba(128, 128, 128, 0.644);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.644);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+td {
+  padding: 10px;
+}
+th {
+  background-color: gray;
+  padding: 15px;
+  font-size: 18px;
+} 
+
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+label{
+    display: flex;
+    flex-direction: column; 
+    align-items: left;
+    background-color: rgba(128, 128, 128, 0.644);
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    width: 400px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 45px;
+}
+
+.ocultar{
+    display: none;
+}
+
+.mostrar{ 
+    display: flex;
+}
